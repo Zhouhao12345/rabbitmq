@@ -1,0 +1,8 @@
+php:
+  image: rabbitmq:3-management
+  ports:
+   - 8081:15672
+   - 5672:5672
+  environment:
+   - RABBITMQ_DEFAULT_USER=zhouhao 
+   - RABBITMQ_DEFAULT_PASS=zh.123 
